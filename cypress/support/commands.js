@@ -1,4 +1,3 @@
-///<reference types="cypress-iframe" />
 
 const attachFileHandler = () => {
   cy.get('#file').selectFile('cypress/fixtures/example.json')
